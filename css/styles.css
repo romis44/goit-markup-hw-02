@@ -1,8 +1,6 @@
 .header {
 }
 .logo {
-
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -10,47 +8,18 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #2196F3;
-
 }
 
 .logo-part{
     color: black;
 }
-.nav {
-}
-.list {
-}
-.list-item {
-}
-.link {
-}
-.main {
-}
-.section {
-}
-.title {
-}
-.btm {
-}
-.hidden {
-}
+
 .caption {
+  color: #212121; 
 }
 .subtitle {
+    color: #757575;
 }
 .section-title {
-}
-.img {
-}
-.team-name {
-}
-.team-position {
-}
-.footer {
-}
-.group {
-}
-.contacts-adress {
-}
-.adress-position {
+    color: #212121;
 }
