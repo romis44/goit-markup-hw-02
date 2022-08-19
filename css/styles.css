@@ -45,9 +45,6 @@
     list-style: none;
 }
 
-.list-contacts{
-    list-style: none;
-}
 
 
 /* HEADER */
@@ -62,6 +59,10 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
+}
+
+.list .link.current{
+ color: var(--accent-txt-cl);
 }
 
 .header .link:hover,
@@ -126,7 +127,7 @@
 
 /* НАШІ ПЕРЕВАГИ */
 
-.caption{
+.caption-desc{
     font-weight: 700;
     font-size: 14px;
     line-height:calc(16 / 14);
@@ -135,7 +136,7 @@
 
 }
 
-.subtitle{
+.subtitle-desc{
     font-size: 14px;
     line-height: calc(24 / 14);
     color:var(--grey-txt-cl);
@@ -215,7 +216,7 @@
 .footer .link{
     font-size: 14px;
     line-height:calc(24 / 14);
-    color:rgba(255, 255, 255, 0.6) ;
+    color:var(--dark-txt-cl);
 
 }
 
@@ -225,6 +226,40 @@
     color:var(--accent-txt-cl);
  }
 
+/*PORTFOLIO-BUTTONS */
+
+.section .btn-list{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:calc(26 / 16);
+    text-align: center;
+    color: var(--main-txt-cl);
+    cursor: pointer;
+}
+
+.section .btn-list:hover,
+.section .btn-list:focus{
+    color: var(--accent-txt-cl);
+}
+.section .btn-list.active{
+    color: var(--light-txt-cl);
+    background: var(--accent-bg-cl);
+    border-radius: 4px;;
+}
 
 
-   
+.caption{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--main-txt-cl);
+
+}
+
+.subtitle{
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    color:var(--grey-txt-cl);
+}
